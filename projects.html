@@ -6,14 +6,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="/css/main.css">
-    <link rel="stylesheet" type="text/css" href="/css/popimg.css">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
-    <script src="script.js"></script>
 
-    <title>Portfolio</title>
+
+    <title>Projects</title>
 </head>
 
 <body>
+
+
     <nav class="navbar">
         <div id='cssmenu'>
             <ul>
@@ -31,69 +33,35 @@
 
     <br>
     <section class="pcontainer main">
-        <div class="clearer"></div>
-        <div class="leftbox ">
+       <div class="w3-cell-row">
+	    <div class="w3-cell">
+        <div class="box"> 
 
             <div class="clearer"></div>
             <div class="projectbox">
+                    <div class="imagesBlock">
+					
+                           <img class="pimg" src="/images/shorthere.png">
+                    </div>
 
-                <!-- Trigger the Modal -->
-                <img id="myImg" src="/images/screen1.png" alt="ONE BIG MESS!!!!">
-
-                <!-- The Modal -->
-                <div id="myModal" class="modal">
-
-                    <!-- The Close Button -->
-                    <span class="close">&times;</span>
-
-                    <!-- Modal Content (The Image) -->
-                    <img class="modal-content" id="img01">
-
-                    <!-- Modal Caption (Image Text) -->
-                    <div id="caption"></div>
-                </div>
-                <script>
-                    // Get the modal
-                    var modal = document.getElementById("myModal");
-
-                    // Get the image and insert it inside the modal - use its "alt" text as a caption
-                    var img = document.getElementById("myImg");
-                    var modalImg = document.getElementById("img01");
-                    var captionText = document.getElementById("caption");
-                    img.onclick = function () {
-                        modal.style.display = "block";
-                        modalImg.src = this.src;
-                        captionText.innerHTML = this.alt;
-                    }
-
-                    // Get the <span> element that closes the modal
-                    var span = document.getElementsByClassName("close")[0];
-
-                    // When the user clicks on <span> (x), close the modal
-                    span.onclick = function () {
-                        modal.style.display = "none";
-                    }
-                </script>
-                <br>
                 <ul class="pul">
                     <li class="pil">Names Devs</li>
                     <li class="pil">start&end date</li>
                     <li class="pil">filetype</li>
                 </ul>
                 <div class="dropdown" style="float:left;">
-                    <button class="projectbtn" type="button">click here:</button>
-                    <div class="dropdown-content" style="left:0;">
-                        <a href="#">Webpage</a>
-                        <a href="#">ScreenShots</a>
+                    <button class="dropbtn">&nbsp; The Code &nbsp;</button>
+                    <div class="dropdown-content" style="left:20px; right: -15px; top:-1px;">
+					
+                        <a href="#">Website</a>
+                        <a href="#">Info about app</a>
                         <a href="#">Download</a>
                     </div>
                 </div>
 
 
 
-
             </div>
-
             <div class="projectbox1">
                 <div class="pdesc">
                     <p class="desc">
@@ -107,71 +75,78 @@
                     </p>
                 </div>
             </div>
-            <div class="clearer"></div>
-
-
         </div>
+        </div>
+        <div class="w3-cell">
         <div class="box">
+
+                    <div class="clearer"></div>
+                    <div class="projectbox">
+                            <div class="imagesBlock">
+        
+                                   <img class="pimg" src="/images/shorthere.png">
+                            </div>
+        
+                        <ul class="pul">
+                            <li class="pil">Names Devs</li>
+                            <li class="pil">start&end date</li>
+                            <li class="pil">filetype</li>
+                        </ul>
+                        <div class="dropdown" style="float:left;">
+                            <button class="dropbtn">&nbsp; The Code &nbsp;</button>
+                            <div class="dropdown-content" style="left:20px; right: -15px; top:-1px;">
+                                <a href="#">Website</a>
+                                <a href="#">Info about app</a>
+                                <a href="#">Download</a>
+                            </div>
+                        </div>
+        
+        
+        
+                    </div>
+                    <div class="projectbox1">
+                        <div class="pdesc">
+                            <p class="desc">
+                                <br>
+                                Lorem ipsum dolor sit amet
+                                consectetur adipisicing elit.
+                                Tempora ipsum harum blanditiis, libero
+                                totam eos deserunt, esse laudantium officia
+                                ipsam laboriosam? Maiores aspernatur totam
+                                deleniti provident? Eos quidem animi minus.
+                            </p>
+                        </div>
+                    </div>
+        </div>
+        </div>
+ <div class="w3-cell">
+        <div class="box"> 
+
             <div class="clearer"></div>
             <div class="projectbox">
+                    <div class="imagesBlock">
+					
+                           <img class="pimg" src="/images/shorthere.png">
+                    </div>
 
-                <!-- Trigger the Modal -->
-                <img id="myImg" src="/images/screen1.png" alt="ONE BIG MESS!!!!">
-
-                <!-- The Modal -->
-                <div id="myModal" class="modal">
-
-                    <!-- The Close Button -->
-                    <span class="close">&times;</span>
-
-                    <!-- Modal Content (The Image) -->
-                    <img class="modal-content" id="img01">
-
-                    <!-- Modal Caption (Image Text) -->
-                    <div id="caption"></div>
-                </div>
-                <script>
-                    // Get the modal
-                    var modal = document.getElementById("myModal");
-
-                    // Get the image and insert it inside the modal - use its "alt" text as a caption
-                    var img = document.getElementById("myImg");
-                    var modalImg = document.getElementById("img01");
-                    var captionText = document.getElementById("caption");
-                    img.onclick = function () {
-                        modal.style.display = "block";
-                        modalImg.src = this.src;
-                        captionText.innerHTML = this.alt;
-                    }
-
-                    // Get the <span> element that closes the modal
-                    var span = document.getElementsByClassName("close")[0];
-
-                    // When the user clicks on <span> (x), close the modal
-                    span.onclick = function () {
-                        modal.style.display = "none";
-                    }
-                </script>
-                <br>
                 <ul class="pul">
                     <li class="pil">Names Devs</li>
-                    <li class="pil1">start&end date</li>
-                    <li class="pil2">filetype</li>
+                    <li class="pil">start&end date</li>
+                    <li class="pil">filetype</li>
                 </ul>
                 <div class="dropdown" style="float:left;">
-                    <button class="projectbtn" type="button">click here:</button>
-                    <div class="dropdown-content" style="left:0;">
-                        <a href="#">Webpage</a>
-                        <a href="#">ScreenShots</a>
+                    <button class="dropbtn">&nbsp; The Code &nbsp;</button>
+                    <div class="dropdown-content" style="left:20px; right: -15px; top:-1px;">
+					
+                        <a href="#">Website</a>
+                        <a href="#">Info about app</a>
                         <a href="#">Download</a>
                     </div>
                 </div>
 
 
 
-
             </div>
-
             <div class="projectbox1">
                 <div class="pdesc">
                     <p class="desc">
@@ -185,136 +160,43 @@
                     </p>
                 </div>
             </div>
-            <div class="clearer"></div>
         </div>
-        <div class="rightbox">
-            <div class="clearer"></div>
-            <div class="projectbox">
-
-                <!-- Trigger the Modal -->
-                <img id="myImg" src="/images/screen1.png" alt="ONE BIG MESS!!!!">
-
-                <!-- The Modal -->
-                <div id="myModal" class="modal">
-
-                    <!-- The Close Button -->
-                    <span class="close">&times;</span>
-
-                    <!-- Modal Content (The Image) -->
-                    <img class="modal-content" id="img01">
-
-                    <!-- Modal Caption (Image Text) -->
-                    <div id="caption"></div>
-                </div>
-                <script>
-                    // Get the modal
-                    var modal = document.getElementById("myModal");
-
-                    // Get the image and insert it inside the modal - use its "alt" text as a caption
-                    var img = document.getElementById("myImg");
-                    var modalImg = document.getElementById("img01");
-                    var captionText = document.getElementById("caption");
-                    img.onclick = function () {
-                        modal.style.display = "block";
-                        modalImg.src = this.src;
-                        captionText.innerHTML = this.alt;
-                    }
-
-                    // Get the <span> element that closes the modal
-                    var span = document.getElementsByClassName("close")[0];
-
-                    // When the user clicks on <span> (x), close the modal
-                    span.onclick = function () {
-                        modal.style.display = "none";
-                    }
-                </script>
-                <br>
-                <ul class="pul">
-                    <li class="pil">Names Devs</li>
-                    <li class="pil1">start&end date</li>
-                    <li class="pil2">filetype</li>
-                </ul>
-                <button class="projectbtn" type="button">Click Me!</button>
-
-
-
-
-            </div>
-
-            <div class="projectbox1">
-                <div class="pdesc">
-                    <p class="desc">
-                        <br>
-                        Lorem ipsum dolor sit amet
-                        consectetur adipisicing elit.
-                        Tempora ipsum harum blanditiis, libero
-                        totam eos deserunt, esse laudantium officia
-                        ipsam laboriosam? Maiores aspernatur totam
-                        deleniti provident? Eos quidem animi minus.
-                    </p>
-                </div>
-            </div>
-            <div class="clearer"></div>
         </div>
-        <div class="clearer"></div>
-    </section>
-    <section class="pcontainer">
-        <div class="clearer"></div>
-        <div class="leftbox ">
+          
+        </div>
+
+
+ </div>
+ 
+ <div class="w3-cell-row">
+	    <div class="w3-cell">
+        <div class="box"> 
 
             <div class="clearer"></div>
             <div class="projectbox">
+                    <div class="imagesBlock">
+					
+                           <img class="pimg" src="/images/shorthere.png">
+                    </div>
 
-                <!-- Trigger the Modal -->
-                <img id="myImg" src="/images/screen1.png" alt="ONE BIG MESS!!!!">
-
-                <!-- The Modal -->
-                <div id="myModal" class="modal">
-
-                    <!-- The Close Button -->
-                    <span class="close">&times;</span>
-
-                    <!-- Modal Content (The Image) -->
-                    <img class="modal-content" id="img01">
-
-                    <!-- Modal Caption (Image Text) -->
-                    <div id="caption"></div>
-                </div>
-                <script>
-                    // Get the modal
-                    var modal = document.getElementById("myModal");
-
-                    // Get the image and insert it inside the modal - use its "alt" text as a caption
-                    var img = document.getElementById("myImg");
-                    var modalImg = document.getElementById("img01");
-                    var captionText = document.getElementById("caption");
-                    img.onclick = function () {
-                        modal.style.display = "block";
-                        modalImg.src = this.src;
-                        captionText.innerHTML = this.alt;
-                    }
-
-                    // Get the <span> element that closes the modal
-                    var span = document.getElementsByClassName("close")[0];
-
-                    // When the user clicks on <span> (x), close the modal
-                    span.onclick = function () {
-                        modal.style.display = "none";
-                    }
-                </script>
-                <br>
                 <ul class="pul">
                     <li class="pil">Names Devs</li>
-                    <li class="pil1">start&end date</li>
-                    <li class="pil2">filetype</li>
+                    <li class="pil">start&end date</li>
+                    <li class="pil">filetype</li>
                 </ul>
-                <button class="projectbtn" type="button">Click Me!</button>
-
+                <div class="dropdown" style="float:left;">
+                    <button class="dropbtn">&nbsp; The Code &nbsp;</button>
+                    <div class="dropdown-content" style="left:20px; right: -15px; top:-1px;">
+					
+                        <a href="#">Website</a>
+                        <a href="#">Info about app</a>
+                        <a href="#">Download</a>
+                    </div>
+                </div>
 
 
 
             </div>
-
             <div class="projectbox1">
                 <div class="pdesc">
                     <p class="desc">
@@ -328,64 +210,78 @@
                     </p>
                 </div>
             </div>
-            <div class="clearer"></div>
-
-
         </div>
+        </div>
+        <div class="w3-cell">
         <div class="box">
+
+                    <div class="clearer"></div>
+                    <div class="projectbox">
+                            <div class="imagesBlock">
+        
+                                   <img class="pimg" src="/images/shorthere.png">
+                            </div>
+        
+                        <ul class="pul">
+                            <li class="pil">Names Devs</li>
+                            <li class="pil">start&end date</li>
+                            <li class="pil">filetype</li>
+                        </ul>
+                        <div class="dropdown" style="float:left;">
+                            <button class="dropbtn">&nbsp; The Code &nbsp;</button>
+                            <div class="dropdown-content" style="left:20px; right: -15px; top:-1px;">
+                                <a href="#">Website</a>
+                                <a href="#">Info about app</a>
+                                <a href="#">Download</a>
+                            </div>
+                        </div>
+        
+        
+        
+                    </div>
+                    <div class="projectbox1">
+                        <div class="pdesc">
+                            <p class="desc">
+                                <br>
+                                Lorem ipsum dolor sit amet
+                                consectetur adipisicing elit.
+                                Tempora ipsum harum blanditiis, libero
+                                totam eos deserunt, esse laudantium officia
+                                ipsam laboriosam? Maiores aspernatur totam
+                                deleniti provident? Eos quidem animi minus.
+                            </p>
+                        </div>
+                    </div>
+        </div>
+        </div>
+ <div class="w3-cell">
+        <div class="box"> 
+
             <div class="clearer"></div>
             <div class="projectbox">
+                    <div class="imagesBlock">
+					
+                           <img class="pimg" src="/images/shorthere.png">
+                    </div>
 
-                <!-- Trigger the Modal -->
-                <img id="myImg" src="/images/screen1.png" alt="ONE BIG MESS!!!!">
-
-                <!-- The Modal -->
-                <div id="myModal" class="modal">
-
-                    <!-- The Close Button -->
-                    <span class="close">&times;</span>
-
-                    <!-- Modal Content (The Image) -->
-                    <img class="modal-content" id="img01">
-
-                    <!-- Modal Caption (Image Text) -->
-                    <div id="caption"></div>
-                </div>
-                <script>
-                    // Get the modal
-                    var modal = document.getElementById("myModal");
-
-                    // Get the image and insert it inside the modal - use its "alt" text as a caption
-                    var img = document.getElementById("myImg");
-                    var modalImg = document.getElementById("img01");
-                    var captionText = document.getElementById("caption");
-                    img.onclick = function () {
-                        modal.style.display = "block";
-                        modalImg.src = this.src;
-                        captionText.innerHTML = this.alt;
-                    }
-
-                    // Get the <span> element that closes the modal
-                    var span = document.getElementsByClassName("close")[0];
-
-                    // When the user clicks on <span> (x), close the modal
-                    span.onclick = function () {
-                        modal.style.display = "none";
-                    }
-                </script>
-                <br>
                 <ul class="pul">
                     <li class="pil">Names Devs</li>
-                    <li class="pil1">start&end date</li>
-                    <li class="pil2">filetype</li>
+                    <li class="pil">start&end date</li>
+                    <li class="pil">filetype</li>
                 </ul>
-                <button class="projectbtn" type="button">Click Me!</button>
-
+                <div class="dropdown" style="float:left;">
+                    <button class="dropbtn">&nbsp; The Code &nbsp;</button>
+                    <div class="dropdown-content" style="left:20px; right: -15px; top:-1px;">
+					
+                        <a href="#">Website</a>
+                        <a href="#">Info about app</a>
+                        <a href="#">Download</a>
+                    </div>
+                </div>
 
 
 
             </div>
-
             <div class="projectbox1">
                 <div class="pdesc">
                     <p class="desc">
@@ -399,62 +295,43 @@
                     </p>
                 </div>
             </div>
-            <div class="clearer"></div>
         </div>
-        <div class="rightbox">
+        </div>
+          
+        </div>
+
+
+ </div> 
+
+ <div class="w3-cell-row">
+	    <div class="w3-cell">
+        <div class="box"> 
+
             <div class="clearer"></div>
             <div class="projectbox">
+                    <div class="imagesBlock">
+					
+                           <img class="pimg" src="/images/shorthere.png">
+                    </div>
 
-                <!-- Trigger the Modal -->
-                <img id="myImg" src="/images/screen1.png" alt="ONE BIG MESS!!!!">
-
-                <!-- The Modal -->
-                <div id="myModal" class="modal">
-
-                    <!-- The Close Button -->
-                    <span class="close">&times;</span>
-
-                    <!-- Modal Content (The Image) -->
-                    <img class="modal-content" id="img01">
-
-                    <!-- Modal Caption (Image Text) -->
-                    <div id="caption"></div>
-                </div>
-                <script>
-                    // Get the modal
-                    var modal = document.getElementById("myModal");
-
-                    // Get the image and insert it inside the modal - use its "alt" text as a caption
-                    var img = document.getElementById("myImg");
-                    var modalImg = document.getElementById("img01");
-                    var captionText = document.getElementById("caption");
-                    img.onclick = function () {
-                        modal.style.display = "block";
-                        modalImg.src = this.src;
-                        captionText.innerHTML = this.alt;
-                    }
-
-                    // Get the <span> element that closes the modal
-                    var span = document.getElementsByClassName("close")[0];
-
-                    // When the user clicks on <span> (x), close the modal
-                    span.onclick = function () {
-                        modal.style.display = "none";
-                    }
-                </script>
-                <br>
                 <ul class="pul">
                     <li class="pil">Names Devs</li>
-                    <li class="pil1">start&end date</li>
-                    <li class="pil2">filetype</li>
+                    <li class="pil">start&end date</li>
+                    <li class="pil">filetype</li>
                 </ul>
-                <button class="projectbtn" type="button">Click Me!</button>
-
+                <div class="dropdown" style="float:left;">
+                    <button class="dropbtn">&nbsp; The Code &nbsp;</button>
+                    <div class="dropdown-content" style="left:20px; right: -15px; top:-1px;">
+					
+                        <a href="#">Website</a>
+                        <a href="#">Info about app</a>
+                        <a href="#">Download</a>
+                    </div>
+                </div>
 
 
 
             </div>
-
             <div class="projectbox1">
                 <div class="pdesc">
                     <p class="desc">
@@ -468,138 +345,78 @@
                     </p>
                 </div>
             </div>
-            <div class="clearer"></div>
         </div>
-        <div class="clearer"></div>
-    </section>
-    <section class="pcontainer">
-        <div class="clearer"></div>
-        <div class="leftbox ">
-
-            <div class="clearer"></div>
-            <div class="projectbox">
-
-                <!-- Trigger the Modal -->
-                <img id="myImg" src="/images/screen1.png" alt="ONE BIG MESS!!!!">
-
-                <!-- The Modal -->
-                <div id="myModal" class="modal">
-
-                    <!-- The Close Button -->
-                    <span class="close">&times;</span>
-
-                    <!-- Modal Content (The Image) -->
-                    <img class="modal-content" id="img01">
-
-                    <!-- Modal Caption (Image Text) -->
-                    <div id="caption"></div>
-                </div>
-                <script>
-                    // Get the modal
-                    var modal = document.getElementById("myModal");
-
-                    // Get the image and insert it inside the modal - use its "alt" text as a caption
-                    var img = document.getElementById("myImg");
-                    var modalImg = document.getElementById("img01");
-                    var captionText = document.getElementById("caption");
-                    img.onclick = function () {
-                        modal.style.display = "block";
-                        modalImg.src = this.src;
-                        captionText.innerHTML = this.alt;
-                    }
-
-                    // Get the <span> element that closes the modal
-                    var span = document.getElementsByClassName("close")[0];
-
-                    // When the user clicks on <span> (x), close the modal
-                    span.onclick = function () {
-                        modal.style.display = "none";
-                    }
-                </script>
-                <br>
-                <ul class="pul">
-                    <li class="pil">Names Devs</li>
-                    <li class="pil1">start&end date</li>
-                    <li class="pil2">filetype</li>
-                </ul>
-                <button class="projectbtn" type="button">Click Me!</button>
-
-
-
-
-            </div>
-
-            <div class="projectbox1">
-                <div class="pdesc">
-                    <p class="desc">
-                        <br>
-                        Lorem ipsum dolor sit amet
-                        consectetur adipisicing elit.
-                        Tempora ipsum harum blanditiis, libero
-                        totam eos deserunt, esse laudantium officia
-                        ipsam laboriosam? Maiores aspernatur totam
-                        deleniti provident? Eos quidem animi minus.
-                    </p>
-                </div>
-            </div>
-            <div class="clearer"></div>
-
-
         </div>
+        <div class="w3-cell">
         <div class="box">
+
+                    <div class="clearer"></div>
+                    <div class="projectbox">
+                            <div class="imagesBlock">
+        
+                                   <img class="pimg" src="/images/shorthere.png">
+                            </div>
+        
+                        <ul class="pul">
+                            <li class="pil">Names Devs</li>
+                            <li class="pil">start&end date</li>
+                            <li class="pil">filetype</li>
+                        </ul>
+                        <div class="dropdown" style="float:left;">
+                            <button class="dropbtn">&nbsp; The Code &nbsp;</button>
+                            <div class="dropdown-content" style="left:20px; right: -15px; top:-1px;">
+                                <a href="#">Website</a>
+                                <a href="#">Info about app</a>
+                                <a href="#">Download</a>
+                            </div>
+                        </div>
+        
+        
+        
+                    </div>
+                    <div class="projectbox1">
+                        <div class="pdesc">
+                            <p class="desc">
+                                <br>
+                                Lorem ipsum dolor sit amet
+                                consectetur adipisicing elit.
+                                Tempora ipsum harum blanditiis, libero
+                                totam eos deserunt, esse laudantium officia
+                                ipsam laboriosam? Maiores aspernatur totam
+                                deleniti provident? Eos quidem animi minus.
+                            </p>
+                        </div>
+                    </div>
+        </div>
+        </div>
+ <div class="w3-cell">
+        <div class="box"> 
+
             <div class="clearer"></div>
             <div class="projectbox">
+                    <div class="imagesBlock">
+					
+                           <img class="pimg" src="/images/shorthere.png">
+                    </div>
 
-                <!-- Trigger the Modal -->
-                <img id="myImg" src="/images/screen1.png" alt="ONE BIG MESS!!!!">
-
-                <!-- The Modal -->
-                <div id="myModal" class="modal">
-
-                    <!-- The Close Button -->
-                    <span class="close">&times;</span>
-
-                    <!-- Modal Content (The Image) -->
-                    <img class="modal-content" id="img01">
-
-                    <!-- Modal Caption (Image Text) -->
-                    <div id="caption"></div>
-                </div>
-                <script>
-                    // Get the modal
-                    var modal = document.getElementById("myModal");
-
-                    // Get the image and insert it inside the modal - use its "alt" text as a caption
-                    var img = document.getElementById("myImg");
-                    var modalImg = document.getElementById("img01");
-                    var captionText = document.getElementById("caption");
-                    img.onclick = function () {
-                        modal.style.display = "block";
-                        modalImg.src = this.src;
-                        captionText.innerHTML = this.alt;
-                    }
-
-                    // Get the <span> element that closes the modal
-                    var span = document.getElementsByClassName("close")[0];
-
-                    // When the user clicks on <span> (x), close the modal
-                    span.onclick = function () {
-                        modal.style.display = "none";
-                    }
-                </script>
-                <br>
                 <ul class="pul">
                     <li class="pil">Names Devs</li>
-                    <li class="pil1">start&end date</li>
-                    <li class="pil2">filetype</li>
+                    <li class="pil">start&end date</li>
+                    <li class="pil">filetype</li>
                 </ul>
-                <button class="projectbtn" type="button">Click Me!</button>
-
+                <div class="dropdown" style="float:left;">
+                    <button class="dropbtn">&nbsp; The Code &nbsp;</button>
+                    <div class="dropdown-content" style="left:20px; right: -15px; top:-1px;">
+					
+                        <a href="#">Website</a>
+                        <a href="#">Info about app</a>
+                        <a href="#">Download</a>
+                    </div>
+                </div>
 
 
 
             </div>
-
             <div class="projectbox1">
                 <div class="pdesc">
                     <p class="desc">
@@ -613,62 +430,44 @@
                     </p>
                 </div>
             </div>
-            <div class="clearer"></div>
         </div>
-        <div class="rightbox">
+        </div>
+          
+        </div>
+
+
+ </div> 
+
+
+ <div class="w3-cell-row">
+	    <div class="w3-cell">
+        <div class="box"> 
+
             <div class="clearer"></div>
             <div class="projectbox">
+                    <div class="imagesBlock">
+					
+                           <img class="pimg" src="/images/shorthere.png">
+                    </div>
 
-                <!-- Trigger the Modal -->
-                <img id="myImg" src="/images/screen1.png" alt="ONE BIG MESS!!!!">
-
-                <!-- The Modal -->
-                <div id="myModal" class="modal">
-
-                    <!-- The Close Button -->
-                    <span class="close">&times;</span>
-
-                    <!-- Modal Content (The Image) -->
-                    <img class="modal-content" id="img01">
-
-                    <!-- Modal Caption (Image Text) -->
-                    <div id="caption"></div>
-                </div>
-                <script>
-                    // Get the modal
-                    var modal = document.getElementById("myModal");
-
-                    // Get the image and insert it inside the modal - use its "alt" text as a caption
-                    var img = document.getElementById("myImg");
-                    var modalImg = document.getElementById("img01");
-                    var captionText = document.getElementById("caption");
-                    img.onclick = function () {
-                        modal.style.display = "block";
-                        modalImg.src = this.src;
-                        captionText.innerHTML = this.alt;
-                    }
-
-                    // Get the <span> element that closes the modal
-                    var span = document.getElementsByClassName("close")[0];
-
-                    // When the user clicks on <span> (x), close the modal
-                    span.onclick = function () {
-                        modal.style.display = "none";
-                    }
-                </script>
-                <br>
                 <ul class="pul">
                     <li class="pil">Names Devs</li>
-                    <li class="pil1">start&end date</li>
-                    <li class="pil2">filetype</li>
+                    <li class="pil">start&end date</li>
+                    <li class="pil">filetype</li>
                 </ul>
-                <button class="projectbtn" type="button">Click Me!</button>
-
+                <div class="dropdown" style="float:left;">
+                    <button class="dropbtn">&nbsp; The Code &nbsp;</button>
+                    <div class="dropdown-content" style="left:20px; right: -15px; top:-1px;">
+					
+                        <a href="#">Website</a>
+                        <a href="#">Info about app</a>
+                        <a href="#">Download</a>
+                    </div>
+                </div>
 
 
 
             </div>
-
             <div class="projectbox1">
                 <div class="pdesc">
                     <p class="desc">
@@ -682,138 +481,78 @@
                     </p>
                 </div>
             </div>
-            <div class="clearer"></div>
         </div>
-        <div class="clearer"></div>
-    </section>
-    <section class="pcontainer">
-        <div class="clearer"></div>
-        <div class="leftbox ">
-
-            <div class="clearer"></div>
-            <div class="projectbox">
-
-                <!-- Trigger the Modal -->
-                <img id="myImg" src="/images/screen1.png" alt="ONE BIG MESS!!!!">
-
-                <!-- The Modal -->
-                <div id="myModal" class="modal">
-
-                    <!-- The Close Button -->
-                    <span class="close">&times;</span>
-
-                    <!-- Modal Content (The Image) -->
-                    <img class="modal-content" id="img01">
-
-                    <!-- Modal Caption (Image Text) -->
-                    <div id="caption"></div>
-                </div>
-                <script>
-                    // Get the modal
-                    var modal = document.getElementById("myModal");
-
-                    // Get the image and insert it inside the modal - use its "alt" text as a caption
-                    var img = document.getElementById("myImg");
-                    var modalImg = document.getElementById("img01");
-                    var captionText = document.getElementById("caption");
-                    img.onclick = function () {
-                        modal.style.display = "block";
-                        modalImg.src = this.src;
-                        captionText.innerHTML = this.alt;
-                    }
-
-                    // Get the <span> element that closes the modal
-                    var span = document.getElementsByClassName("close")[0];
-
-                    // When the user clicks on <span> (x), close the modal
-                    span.onclick = function () {
-                        modal.style.display = "none";
-                    }
-                </script>
-                <br>
-                <ul class="pul">
-                    <li class="pil">Names Devs</li>
-                    <li class="pil1">start&end date</li>
-                    <li class="pil2">filetype</li>
-                </ul>
-                <button class="projectbtn" type="button">Click Me!</button>
-
-
-
-
-            </div>
-
-            <div class="projectbox1">
-                <div class="pdesc">
-                    <p class="desc">
-                        <br>
-                        Lorem ipsum dolor sit amet
-                        consectetur adipisicing elit.
-                        Tempora ipsum harum blanditiis, libero
-                        totam eos deserunt, esse laudantium officia
-                        ipsam laboriosam? Maiores aspernatur totam
-                        deleniti provident? Eos quidem animi minus.
-                    </p>
-                </div>
-            </div>
-            <div class="clearer"></div>
-
-
         </div>
+        <div class="w3-cell">
         <div class="box">
+
+                    <div class="clearer"></div>
+                    <div class="projectbox">
+                            <div class="imagesBlock">
+        
+                                   <img class="pimg" src="/images/shorthere.png">
+                            </div>
+        
+                        <ul class="pul">
+                            <li class="pil">Names Devs</li>
+                            <li class="pil">start&end date</li>
+                            <li class="pil">filetype</li>
+                        </ul>
+                        <div class="dropdown" style="float:left;">
+                            <button class="dropbtn">&nbsp; The Code &nbsp;</button>
+                            <div class="dropdown-content" style="left:20px; right: -15px; top:-1px;">
+                                <a href="#">Website</a>
+                                <a href="#">Info about app</a>
+                                <a href="#">Download</a>
+                            </div>
+                        </div>
+        
+        
+        
+                    </div>
+                    <div class="projectbox1">
+                        <div class="pdesc">
+                            <p class="desc">
+                                <br>
+                                Lorem ipsum dolor sit amet
+                                consectetur adipisicing elit.
+                                Tempora ipsum harum blanditiis, libero
+                                totam eos deserunt, esse laudantium officia
+                                ipsam laboriosam? Maiores aspernatur totam
+                                deleniti provident? Eos quidem animi minus.
+                            </p>
+                        </div>
+                    </div>
+        </div>
+        </div>
+ <div class="w3-cell">
+        <div class="box"> 
+
             <div class="clearer"></div>
             <div class="projectbox">
+                    <div class="imagesBlock">
+					
+                           <img class="pimg" src="/images/shorthere.png">
+                    </div>
 
-                <!-- Trigger the Modal -->
-                <img id="myImg" src="/images/screen1.png" alt="ONE BIG MESS!!!!">
-
-                <!-- The Modal -->
-                <div id="myModal" class="modal">
-
-                    <!-- The Close Button -->
-                    <span class="close">&times;</span>
-
-                    <!-- Modal Content (The Image) -->
-                    <img class="modal-content" id="img01">
-
-                    <!-- Modal Caption (Image Text) -->
-                    <div id="caption"></div>
-                </div>
-                <script>
-                    // Get the modal
-                    var modal = document.getElementById("myModal");
-
-                    // Get the image and insert it inside the modal - use its "alt" text as a caption
-                    var img = document.getElementById("myImg");
-                    var modalImg = document.getElementById("img01");
-                    var captionText = document.getElementById("caption");
-                    img.onclick = function () {
-                        modal.style.display = "block";
-                        modalImg.src = this.src;
-                        captionText.innerHTML = this.alt;
-                    }
-
-                    // Get the <span> element that closes the modal
-                    var span = document.getElementsByClassName("close")[0];
-
-                    // When the user clicks on <span> (x), close the modal
-                    span.onclick = function () {
-                        modal.style.display = "none";
-                    }
-                </script>
-                <br>
                 <ul class="pul">
                     <li class="pil">Names Devs</li>
-                    <li class="pil1">start&end date</li>
-                    <li class="pil2">filetype</li>
+                    <li class="pil">start&end date</li>
+                    <li class="pil">filetype</li>
                 </ul>
-                <button class="projectbtn" type="button">Click Me!</button>
-
+                <div class="dropdown" style="float:left;">
+                    <button class="dropbtn">&nbsp; The Code &nbsp;</button>
+                    <div class="dropdown-content" style="left:20px; right: -15px; top:-1px;">
+					
+                        <a href="#">Website</a>
+                        <a href="#">Info about app</a>
+                        <a href="#">Download</a>
+                    </div>
+                </div>
 
 
 
             </div>
-
             <div class="projectbox1">
                 <div class="pdesc">
                     <p class="desc">
@@ -827,62 +566,44 @@
                     </p>
                 </div>
             </div>
-            <div class="clearer"></div>
         </div>
-        <div class="rightbox">
+        </div>
+          
+        </div>
+
+
+ </div> 
+
+
+ <div class="w3-cell-row">
+	    <div class="w3-cell">
+        <div class="box"> 
+
             <div class="clearer"></div>
             <div class="projectbox">
+                    <div class="imagesBlock">
+					
+                           <img class="pimg" src="/images/shorthere.png">
+                    </div>
 
-                <!-- Trigger the Modal -->
-                <img id="myImg" src="/images/screen1.png" alt="ONE BIG MESS!!!!">
-
-                <!-- The Modal -->
-                <div id="myModal" class="modal">
-
-                    <!-- The Close Button -->
-                    <span class="close">&times;</span>
-
-                    <!-- Modal Content (The Image) -->
-                    <img class="modal-content" id="img01">
-
-                    <!-- Modal Caption (Image Text) -->
-                    <div id="caption"></div>
-                </div>
-                <script>
-                    // Get the modal
-                    var modal = document.getElementById("myModal");
-
-                    // Get the image and insert it inside the modal - use its "alt" text as a caption
-                    var img = document.getElementById("myImg");
-                    var modalImg = document.getElementById("img01");
-                    var captionText = document.getElementById("caption");
-                    img.onclick = function () {
-                        modal.style.display = "block";
-                        modalImg.src = this.src;
-                        captionText.innerHTML = this.alt;
-                    }
-
-                    // Get the <span> element that closes the modal
-                    var span = document.getElementsByClassName("close")[0];
-
-                    // When the user clicks on <span> (x), close the modal
-                    span.onclick = function () {
-                        modal.style.display = "none";
-                    }
-                </script>
-                <br>
                 <ul class="pul">
                     <li class="pil">Names Devs</li>
-                    <li class="pil1">start&end date</li>
-                    <li class="pil2">filetype</li>
+                    <li class="pil">start&end date</li>
+                    <li class="pil">filetype</li>
                 </ul>
-                <button class="projectbtn" type="button">Click Me!</button>
-
+                <div class="dropdown" style="float:left;">
+                    <button class="dropbtn">&nbsp; The Code &nbsp;</button>
+                    <div class="dropdown-content" style="left:20px; right: -15px; top:-1px;">
+					
+                        <a href="#">Website</a>
+                        <a href="#">Info about app</a>
+                        <a href="#">Download</a>
+                    </div>
+                </div>
 
 
 
             </div>
-
             <div class="projectbox1">
                 <div class="pdesc">
                     <p class="desc">
@@ -896,138 +617,78 @@
                     </p>
                 </div>
             </div>
-            <div class="clearer"></div>
         </div>
-        <div class="clearer"></div>
-    </section>
-    <section class="pcontainer">
-        <div class="clearer"></div>
-        <div class="leftbox ">
-
-            <div class="clearer"></div>
-            <div class="projectbox">
-
-                <!-- Trigger the Modal -->
-                <img id="myImg" src="/images/screen1.png" alt="ONE BIG MESS!!!!">
-
-                <!-- The Modal -->
-                <div id="myModal" class="modal">
-
-                    <!-- The Close Button -->
-                    <span class="close">&times;</span>
-
-                    <!-- Modal Content (The Image) -->
-                    <img class="modal-content" id="img01">
-
-                    <!-- Modal Caption (Image Text) -->
-                    <div id="caption"></div>
-                </div>
-                <script>
-                    // Get the modal
-                    var modal = document.getElementById("myModal");
-
-                    // Get the image and insert it inside the modal - use its "alt" text as a caption
-                    var img = document.getElementById("myImg");
-                    var modalImg = document.getElementById("img01");
-                    var captionText = document.getElementById("caption");
-                    img.onclick = function () {
-                        modal.style.display = "block";
-                        modalImg.src = this.src;
-                        captionText.innerHTML = this.alt;
-                    }
-
-                    // Get the <span> element that closes the modal
-                    var span = document.getElementsByClassName("close")[0];
-
-                    // When the user clicks on <span> (x), close the modal
-                    span.onclick = function () {
-                        modal.style.display = "none";
-                    }
-                </script>
-                <br>
-                <ul class="pul">
-                    <li class="pil">Names Devs</li>
-                    <li class="pil1">start&end date</li>
-                    <li class="pil2">filetype</li>
-                </ul>
-                <button class="projectbtn" type="button">Click Me!</button>
-
-
-
-
-            </div>
-
-            <div class="projectbox1">
-                <div class="pdesc">
-                    <p class="desc">
-                        <br>
-                        Lorem ipsum dolor sit amet
-                        consectetur adipisicing elit.
-                        Tempora ipsum harum blanditiis, libero
-                        totam eos deserunt, esse laudantium officia
-                        ipsam laboriosam? Maiores aspernatur totam
-                        deleniti provident? Eos quidem animi minus.
-                    </p>
-                </div>
-            </div>
-            <div class="clearer"></div>
-
-
         </div>
+        <div class="w3-cell">
         <div class="box">
+
+                    <div class="clearer"></div>
+                    <div class="projectbox">
+                            <div class="imagesBlock">
+        
+                                   <img class="pimg" src="/images/shorthere.png">
+                            </div>
+        
+                        <ul class="pul">
+                            <li class="pil">Names Devs</li>
+                            <li class="pil">start&end date</li>
+                            <li class="pil">filetype</li>
+                        </ul>
+                        <div class="dropdown" style="float:left;">
+                            <button class="dropbtn">&nbsp; The Code &nbsp;</button>
+                            <div class="dropdown-content" style="left:20px; right: -15px; top:-1px;">
+                                <a href="#">Website</a>
+                                <a href="#">Info about app</a>
+                                <a href="#">Download</a>
+                            </div>
+                        </div>
+        
+        
+        
+                    </div>
+                    <div class="projectbox1">
+                        <div class="pdesc">
+                            <p class="desc">
+                                <br>
+                                Lorem ipsum dolor sit amet
+                                consectetur adipisicing elit.
+                                Tempora ipsum harum blanditiis, libero
+                                totam eos deserunt, esse laudantium officia
+                                ipsam laboriosam? Maiores aspernatur totam
+                                deleniti provident? Eos quidem animi minus.
+                            </p>
+                        </div>
+                    </div>
+        </div>
+        </div>
+ <div class="w3-cell">
+        <div class="box"> 
+
             <div class="clearer"></div>
             <div class="projectbox">
+                    <div class="imagesBlock">
+					
+                           <img class="pimg" src="/images/shorthere.png">
+                    </div>
 
-                <!-- Trigger the Modal -->
-                <img id="myImg" src="/images/screen1.png" alt="ONE BIG MESS!!!!">
-
-                <!-- The Modal -->
-                <div id="myModal" class="modal">
-
-                    <!-- The Close Button -->
-                    <span class="close">&times;</span>
-
-                    <!-- Modal Content (The Image) -->
-                    <img class="modal-content" id="img01">
-
-                    <!-- Modal Caption (Image Text) -->
-                    <div id="caption"></div>
-                </div>
-                <script>
-                    // Get the modal
-                    var modal = document.getElementById("myModal");
-
-                    // Get the image and insert it inside the modal - use its "alt" text as a caption
-                    var img = document.getElementById("myImg");
-                    var modalImg = document.getElementById("img01");
-                    var captionText = document.getElementById("caption");
-                    img.onclick = function () {
-                        modal.style.display = "block";
-                        modalImg.src = this.src;
-                        captionText.innerHTML = this.alt;
-                    }
-
-                    // Get the <span> element that closes the modal
-                    var span = document.getElementsByClassName("close")[0];
-
-                    // When the user clicks on <span> (x), close the modal
-                    span.onclick = function () {
-                        modal.style.display = "none";
-                    }
-                </script>
-                <br>
                 <ul class="pul">
                     <li class="pil">Names Devs</li>
-                    <li class="pil1">start&end date</li>
-                    <li class="pil2">filetype</li>
+                    <li class="pil">start&end date</li>
+                    <li class="pil">filetype</li>
                 </ul>
-                <button class="projectbtn" type="button">Click Me!</button>
-
+                <div class="dropdown" style="float:left;">
+                    <button class="dropbtn">&nbsp; The Code &nbsp;</button>
+                    <div class="dropdown-content" style="left:20px; right: -15px; top:-1px;">
+					
+                        <a href="#">Website</a>
+                        <a href="#">Info about app</a>
+                        <a href="#">Download</a>
+                    </div>
+                </div>
 
 
 
             </div>
-
             <div class="projectbox1">
                 <div class="pdesc">
                     <p class="desc">
@@ -1041,79 +702,15 @@
                     </p>
                 </div>
             </div>
-            <div class="clearer"></div>
         </div>
-        <div class="rightbox">
-            <div class="clearer"></div>
-            <div class="projectbox">
-
-                <!-- Trigger the Modal -->
-                <img id="myImg" src="/images/screen1.png" alt="ONE BIG MESS!!!!">
-
-                <!-- The Modal -->
-                <div id="myModal" class="modal">
-
-                    <!-- The Close Button -->
-                    <span class="close">&times;</span>
-
-                    <!-- Modal Content (The Image) -->
-                    <img class="modal-content" id="img01">
-
-                    <!-- Modal Caption (Image Text) -->
-                    <div id="caption"></div>
-                </div>
-                <script>
-                    // Get the modal
-                    var modal = document.getElementById("myModal");
-
-                    // Get the image and insert it inside the modal - use its "alt" text as a caption
-                    var img = document.getElementById("myImg");
-                    var modalImg = document.getElementById("img01");
-                    var captionText = document.getElementById("caption");
-                    img.onclick = function () {
-                        modal.style.display = "block";
-                        modalImg.src = this.src;
-                        captionText.innerHTML = this.alt;
-                    }
-
-                    // Get the <span> element that closes the modal
-                    var span = document.getElementsByClassName("close")[0];
-
-                    // When the user clicks on <span> (x), close the modal
-                    span.onclick = function () {
-                        modal.style.display = "none";
-                    }
-                </script>
-                <br>
-                <ul class="pul">
-                    <li class="pil">Names Devs</li>
-                    <li class="pil1">start&end date</li>
-                    <li class="pil2">filetype</li>
-                </ul>
-                <button class="projectbtn" type="button">Click Me!</button>
-
-
-
-
-            </div>
-
-            <div class="projectbox1">
-                <div class="pdesc">
-                    <p class="desc">
-                        <br>
-                        Lorem ipsum dolor sit amet
-                        consectetur adipisicing elit.
-                        Tempora ipsum harum blanditiis, libero
-                        totam eos deserunt, esse laudantium officia
-                        ipsam laboriosam? Maiores aspernatur totam
-                        deleniti provident? Eos quidem animi minus.
-                    </p>
-                </div>
-            </div>
-            <div class="clearer"></div>
         </div>
-        <div class="clearer"></div>
+          
+        </div>
+
+
+ </div> 
     </section>
+                        
 
 </body>
 
