@@ -3,10 +3,10 @@ title {
     color: black;
 }
 
+
 /*-=Body=-*/
 
 body {
-    background-image: url('/images/nightsky.jpg');
     font-family: sans-serif;
     height: 125vh;
     margin: 0%;
@@ -16,6 +16,18 @@ body {
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
+    background: url('/images/background.png');
+
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  background: url('/images/backgroundmov.mov');
+  background-clip: border-box; 
 }
 
 p {
@@ -55,7 +67,8 @@ header li a {
     color: rgba(238, 238, 238, 0.644);
     margin-right: 426px;
     margin-top: 25px;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
+    font-size: x-large;
 }
 
 
@@ -181,7 +194,7 @@ header li a {
 
 /*-=Containers=-*/
 .container {
-    width: 101%;
+    width: 99%;
     height: 90%;
     margin: auto;
     padding: 5px;
@@ -195,29 +208,34 @@ header li a {
 /*home.html - about.html*/
 .column {
     width: 30%;
-    height: 92%;
+    height: 100%;
     float: left;
-    background-color: rgba(151, 1, 135, 0.519);
+    background-color: rgba(81, 85, 126, 0.519);
     margin-left: 20px;
     margin-right: 20px;
+    border-radius: 8px;
 }
 
 .leftcolumn {
     width: 30%;
-    height: 92%;
+    height: 100%;
     float: left;
-    background-color: rgba(151, 255, 135, 0.519);
+    background-color: rgba(81, 85, 126, 0.519);
     margin-left: 20px;
     margin-right: 20px;
+    border-radius: 8px;
+
 }
 
 .rightcolumn {
     width: 30%;
-    height: 92%;
+    height: 100%;
     float: left;
-    background-color: rgba(151, 135, 135, 0.519);
+    background-color: rgba(81, 85, 126, 0.519);
     margin-left: 20px;
     margin-right: 20px;
+    border-radius: 8px;
+
 }
 
 /*projects.html*/
@@ -231,14 +249,15 @@ header li a {
 }
 
 .box {
-
-    float: left;
-    margin-left: 20px;
-    margin-right: 20px;
-    border-radius: 8px;
-    background-image: url(/images/screen3.png);
-    width: 30%;
-    height: 200px;
+  /*width: 30%;*/
+  /*height: 200px;*/
+  float: left;
+  background-image: url(/images/screen3.png);
+  background-image: linear-gradient(to bottom, rgba(24, 23, 23, 0.507) 0%,rgba(54, 54, 54, 0.6) 100%), url(/images/screen3.png);
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 100px;
+  border-radius: 8px;
 
 
 }
@@ -248,7 +267,7 @@ header li a {
     height: 200px;
     float: left;
     background-image: url(/images/screen3.png);
-    background-image: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%), url(/images/screen3.png);
+    background-image: linear-gradient(to bottom, rgba(24, 23, 23, 0.507) 0%,rgba(54, 54, 54, 0.6) 100%), url(/images/screen3.png);
     margin-left: 20px;
     margin-right: 20px;
     border-radius: 8px;
@@ -256,14 +275,14 @@ header li a {
 }
 
 .rightbox {
-    width: 30%;
-    height: 200px;
-    float: left;
-    background-image: url(/images/screen3.png);
-    background-image: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%), url(/images/screen3.png);
-    margin-left: 20px;
-    margin-right: 20px;
-    border-radius: 8px;
+  width: 30%;
+  height: 200px;
+  float: left;
+  background-image: url(/images/screen3.png);
+  background-image: linear-gradient(to bottom, rgba(24, 23, 23, 0.507) 0%,rgba(54, 54, 54, 0.6) 100%), url(/images/screen3.png);
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 8px;
 
 }
 
@@ -283,6 +302,33 @@ header li a {
 
 }
 
+.infobox{
+  width: 40%;
+  height: 100%;
+  float: left;
+}
+
+.formbox{
+  width: 40%;
+  height: 100%;
+  float: left;
+}
+
+
+
+.pimg {
+
+  width: 150px;
+  height: 80px;
+  background-color: rgba(221, 221, 221, 0.555);
+  border-radius: 8px;
+  list-style: none;
+  margin-left: 15px;
+  margin-top: 15px;
+  margin-bottom: -1px;
+
+}
+
 .pdesc {
     margin-top: 5%;
     margin-right: 5%;
@@ -290,7 +336,7 @@ header li a {
     margin-left: 5%;
     width: 88%;
     height: 88%;
-    background-color: rgba(221, 221, 221, 0.555);
+    background-color: rgba(255, 255, 255, 0.342);
     border-radius: 8px;
 }
 
@@ -313,36 +359,26 @@ header li a {
 
 .pul {
     list-style-type: \2022;
-    color: white;
-    font-size: 0.9vw;
+    margin-bottom: 10px;
+
 }
 
 .pil{
     background-repeat: no-repeat;
-    background-position: 0px 50%;
+    margin-bottom: 0px;
+    color: rgba(170, 167, 167, 0.808);
     
 }
 
 
 
-
-.projectbtn {
+.dropbtn { 
     margin-left: 20px;
     margin-top: 0.5px;
     scroll-margin-bottom: 10px;
-    width: 80px,  60%;
-    height: 27px;
-    border-radius: 8px;
-    background-color: rgb(68, 0, 131);
-    cursor: pointer;
-}
-
-.dropbtn {
-    margin-left: 20px;
-    margin-top: 0.5px;
-    scroll-margin-bottom: 10px;
-    width: 60%;
-    height: 27px;
+    width: 90%;
+    height: 40px;
+	color:#ffffff;
     border-radius: 8px;
     background-color: rgb(68, 0, 131);
     cursor: pointer;
@@ -358,10 +394,11 @@ header li a {
     position: absolute;
     right: 0;
     background-color: #7f32e2;
-    min-width: 80px;
+    min-width: 60px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
     font-size: 0.8vw;
+
   }
   
   .dropdown-content a {
@@ -369,7 +406,102 @@ header li a {
     padding: 12px 16px;
     text-decoration: none;
     display: block;
+    
   }
 
 .dropdown-content a:hover {background-color: #9900ff;}
 .dropdown:hover .dropdown-content {display: block;}
+
+
+.imagesBlock{
+  width: 80%;
+  height: 80%;
+  margin-bottom: 10px;
+  /*margin-left: -30px;*/
+  display:block;
+  list-style: none
+}
+
+.indexpfimg{
+  width: 90%;
+  height: 50%;
+}
+
+.divpf{
+  width: 90%;
+  height: 100%;
+  margin-left: 8%;
+  margin-right: 8%;
+  margin-top: 30px;
+}
+
+.divinfo{
+  width: 90%;
+  height: 100%;
+  text-align: center;
+
+}
+
+.list{
+  margin: 0px;
+
+}
+
+.lists{
+  width: 15px;
+  height: 15px;
+  margin-top: 10px;
+}
+
+.divlink{
+  width: 90%;
+  height: 100%;
+  text-align: left;
+}
+
+.divmargin{
+  margin-left: 8%;
+  margin-right: 8%;
+  margin-top: 10px;
+}
+
+.textcolor{
+  color: white;
+}
+
+.button {
+  background-color: #00a2ff;
+  width: 200px;
+  height: 40px;
+  border: none;
+  color: black;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+  border-radius: 8px;
+}
+
+.mapouter{
+  position:relative;
+  text-align:right;
+  height:60%;
+  width:90%;
+
+}
+  .gmap_canvas {
+    overflow:hidden;
+    background:none!important;
+    height:60%;
+    width:90%;
+
+  }
+
+
+
+
+
+
+
+
+
